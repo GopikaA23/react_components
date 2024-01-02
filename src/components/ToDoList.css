@@ -1,0 +1,29 @@
+.list {
+  word-break: break-all;
+  text-align: left;
+}
+
+.enabledButton {
+  background-color: green;
+  color: black;
+  border: 1px solid black;
+  height: 21px;
+}
+
+.disabledButton {
+  background-color: gray;
+  color: black;
+  border: 1px solid black;
+  height: 21px;
+}
+
+.todo-box {
+  height: auto;
+  width: 270px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.todo-input {
+  width: 219px;
+}

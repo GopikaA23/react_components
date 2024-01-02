@@ -1,0 +1,39 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-style: italic;
+  user-select: none;
+}
+
+.menu-title {
+  background-color: antiquewhite;
+  width: 120px;
+}
+
+.menu .right {
+  margin-left: 110px;
+  position: absolute;
+  width: 120px;
+  background-color: aliceblue;
+  padding-bottom: 2px;
+}
+
+.menu .bottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  width: 120px;
+  background-color: aliceblue;
+}
+
+.sym {
+  display: flex;
+  margin-top: -26px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.menu .items {
+  padding: 10px;
+}

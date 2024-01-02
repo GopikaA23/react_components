@@ -1,0 +1,18 @@
+.DropDown-input {
+  margin-top: 20px;
+}
+
+.DropDown-button {
+  margin-right: 20px;
+}
+
+.DropDown-options {
+  background-color: aliceblue;
+  width: 200px;
+  margin-left: 40px;
+}
+
+.DropDown-page {
+  height: 50px;
+  width: 300px;
+}
