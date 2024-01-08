@@ -15,7 +15,7 @@ import "./components/Calculator.css"
 function App() {
   return (
     <div className="App">
-      {/* <div className="App-button">
+      <div className="App-button">
         <Button
           type="primary"
           label="Primary"
@@ -132,10 +132,10 @@ function App() {
       </div>
       <div>
         <PasswordValidator />
-      </div> */}
-      {/* <div>
+      </div>
+      <div>
         <ToggleSwitch left="ON" right="OFF" />
-      </div> */}
+      </div>
       <div>
         <Calculator />
       </div>

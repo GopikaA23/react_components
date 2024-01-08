@@ -77,7 +77,7 @@ function Calculator() {
         <button className="button-sym" onClick={() => handleButtonClick("+")}>
           +
         </button>
-        <button className="button-num" onClick={() => handleButtonClick("0")}>
+        <button className="button-0" onClick={() => handleButtonClick("0")}>
           0
         </button>
         <button className="button-num" onClick={() => handleButtonClick(".")}>
