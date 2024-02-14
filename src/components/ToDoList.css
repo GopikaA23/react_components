@@ -17,13 +17,13 @@
   height: 21px;
 }
 
-.todo-box {
+.todoBox {
   height: auto;
   width: 270px;
   border: 1px solid black;
   margin-top: 10px;
 }
 
-.todo-input {
+.todoInput {
   width: 219px;
 }

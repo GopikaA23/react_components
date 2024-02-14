@@ -14,7 +14,7 @@ function Accordion(props) {
 
   return (
     <div className='Accordion-title'>
-      <button className='Accordion-button' onClick={handleClick}>{showDescription ? <VscTriangleDown /> : <VscTriangleRight />}</button>
+      <button className='Accordion-select' onClick={handleClick}>{showDescription ? <VscTriangleDown /> : <VscTriangleRight />}</button>
       {props.title}
       {showDescription && <div className='Accordion-description'>
         {description}

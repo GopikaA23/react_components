@@ -9,7 +9,7 @@ function Button(props) {
   return (
     <div className='btn' >
       <button
-        className={`button ${pilled ? "pilled" : props.type}`}
+        className={`category ${pilled ? "pilled" : props.type}`}
         onClick={!loading ? props.onClick : func}
       >
         {loading ? props.loadingText : props.label}

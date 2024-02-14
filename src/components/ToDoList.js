@@ -38,10 +38,10 @@ const ToDoList = ({ list }) => {
   };
 
   return (
-    <div className="todo-box">
+    <div className="todoBox">
       <div>
         <input
-          className="todo-input"
+          className="todoInput"
           placeholder="enter the text"
           type="text"
           value={values}

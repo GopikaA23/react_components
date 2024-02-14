@@ -21,18 +21,18 @@ function DropDown(props) {
   return (
     <div className="DropDown-page">
       <input
-        className="DropDown-input"
+        className="header"
         value={showValue}
         onChange={(event) => setShowValue(event.target.value)}
       />
-      <button className="DropDown-button" onClick={handleClick}>
+      <button className="icon" onClick={handleClick}>
         {showDropDown ? <VscTriangleDown /> : <VscTriangleRight />}
       </button>
       {showDropDown && (
         <div>
           {_.map(options, (word) => (
             <div
-              className="DropDown-options"
+              className="options"
               onClick={(event) => handleValueChange(event.target.textContent)}
               key={word}
             >

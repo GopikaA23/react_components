@@ -26,7 +26,7 @@ const Counter = () => {
 
   return (
     <div className="counter-box">
-      <div className="counter-title">Counter App</div>
+      <div className="counter-heading">Counter App</div>
       <div className="counter-value">{counter}</div>
       <div>
         <button className="increment" onClick={handleIncrement}>

@@ -1,12 +1,12 @@
-.DropDown-input {
+.header {
   margin-top: 20px;
 }
 
-.DropDown-button {
+.icon {
   margin-right: 20px;
 }
 
-.DropDown-options {
+.options {
   background-color: aliceblue;
   width: 200px;
   margin-left: 40px;
